@@ -63,7 +63,7 @@ function App() {
       </div>
       <div className='divAll'>
         <div className='menu'>
-          <h3 className='mt-2 d-flex'><img src={user} />User ({allUser.length})</h3>
+          <h3 className='mt-2 d-flex'><img src={user} />User ()</h3>
         </div>
         <div className="form-wrapper mt-5">
           <form className='form p-4 shadow-sm'>
