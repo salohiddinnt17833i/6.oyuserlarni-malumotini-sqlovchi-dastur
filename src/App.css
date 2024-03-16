@@ -26,7 +26,7 @@ img {
 
 .Navbar {
   margin: 0px auto;
-  width: 100vw;
+  width: 98.5vw;
   box-shadow: 0 4px 2px -2px rgba(0, 0, 0, .2);
 }
 
@@ -44,8 +44,44 @@ img {
 }
 
 .menu {
-  padding-right: 70px;
-  padding-left: 10px;
+  padding-right: 30px;
   height: 100vh;
-  border-right: 2px solid black;
+  border-right: 2px solid #cdcdcd;
+}
+
+.userIcon {
+  width: 40px;
+}
+
+.jinsi {
+  width: 27px;
+}
+
+.age {
+  width: 30px;
+}
+
+.desc {
+  width: 22px;
+}
+
+b{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  border-bottom: 1px solid #cdcdcd;
+  transition: all 0.2s linear;
+}
+b:hover{
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, .2);
+
+}
+
+
+
+@media screen and (max-width: 600) {
+  b{
+    display: block;
+  }
 }

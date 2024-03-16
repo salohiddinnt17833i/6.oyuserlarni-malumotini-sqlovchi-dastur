@@ -1,5 +1,8 @@
 import './App.css'
 import user from "./assets/IMAGE-2.jpg"
+import userage from "./assets/age.jpg"
+import userjinsi from "./assets/jinsi.jpg"
+import userdesc from "./assets/desc.png"
 
 import { useState } from 'react'
 
@@ -45,6 +48,10 @@ function App() {
     }
   }
 
+  function handleFilter() {
+    alert('Kechirasiz! Tuzatish kiritilmoqda...')
+  }
+
   return (
     <>
       <div className='Navbar'>
@@ -52,7 +59,6 @@ function App() {
           <h1>My Company</h1>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
             </ul>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
@@ -63,7 +69,11 @@ function App() {
       </div>
       <div className='divAll'>
         <div className='menu'>
-          <h3 className='mt-2 d-flex'><img src={user} />User ()</h3>
+          <b onClick={handleFilter} className='mt-2 fs-5 d-flex  align-items-center'><ion-icon name="person-add-outline"></ion-icon><p className='mt-3'>All User ({allUser.length})</p></b>
+          <b onClick={handleFilter} className='mt-2 fs-5 d-flex  align-items-center'><ion-icon name="person-outline"></ion-icon><p className='mt-3'>Name</p></b>
+          <b onClick={handleFilter} className='mt-2 fs-5 d-flex  align-items-center'><ion-icon name="people-outline"></ion-icon><p className='mt-3'>Age</p></b>
+          <b onClick={handleFilter} className='mt-2 fs-5 d-flex  align-items-center'><ion-icon name="transgender-outline"></ion-icon><p className='mt-3'>Jinsi</p></b>
+          <b onClick={handleFilter} className='mt-2 fs-5 d-flex  align-items-center'><ion-icon name="create-outline"></ion-icon><p className='mt-3'>Izohi</p></b>
         </div>
         <div className="form-wrapper mt-5">
           <form className='form p-4 shadow-sm'>
