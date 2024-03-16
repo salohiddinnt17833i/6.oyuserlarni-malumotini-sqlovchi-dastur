@@ -1,0 +1,14 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.form-wrapper{
+    margin: 0px auto;
+    max-width: 600px;
+    width: 100%;
+}
+textarea{
+    resize: none;
+}

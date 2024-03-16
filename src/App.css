@@ -1,0 +1,51 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  outline: hidden;
+}
+
+.form-wrapper {
+  margin: 0px auto;
+  max-width: 500px;
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+}
+
+.table-container {
+  margin: 20px auto;
+}
+
+img {
+  width: 40px;
+}
+
+.Navbar {
+  margin: 0px auto;
+  width: 100vw;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, .2);
+}
+
+.navbar {
+  margin: 0px auto;
+  max-width: 1440px;
+  width: 100%;
+}
+
+.divAll {
+  margin: 0px auto;
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+}
+
+.menu {
+  padding-right: 70px;
+  padding-left: 10px;
+  height: 100vh;
+  border-right: 2px solid black;
+}
