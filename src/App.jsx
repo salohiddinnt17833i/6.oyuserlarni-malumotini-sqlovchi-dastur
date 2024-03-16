@@ -69,7 +69,7 @@ function App() {
       </div>
       <div className='divAll'>
         <div className='menu'>
-          <b onClick={handleFilter} className='mt-2 fs-5 d-flex  align-items-center'><ion-icon name="person-add-outline"></ion-icon><p className='mt-3'>All User ({allUser.length})</p></b>
+          <b onClick={handleFilter} className='mt-2 fs-5 d-flex  align-items-center'><ion-icon name="person-add-outline"></ion-icon><p className='mt-3'>All User (0)</p></b>
           <b onClick={handleFilter} className='mt-2 fs-5 d-flex  align-items-center'><ion-icon name="person-outline"></ion-icon><p className='mt-3'>Name</p></b>
           <b onClick={handleFilter} className='mt-2 fs-5 d-flex  align-items-center'><ion-icon name="people-outline"></ion-icon><p className='mt-3'>Age</p></b>
           <b onClick={handleFilter} className='mt-2 fs-5 d-flex  align-items-center'><ion-icon name="transgender-outline"></ion-icon><p className='mt-3'>Jinsi</p></b>
